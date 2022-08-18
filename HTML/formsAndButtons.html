@@ -56,5 +56,21 @@
       <input type="text" name="search_query" />
       <button>Search Youtube</button>
     </form>
+    <h2>More Inputs</h2>
+    <!-- "checked" begins the button checked -->
+    <!-- radio buttons must have same name -->
+    <form action="/birds">
+      <input type="checkbox" name="agree_tos" id="agree" />
+      <label for="agree">I agree to everything</label>
+      <p>
+        <label for="s">S</label>
+        <input type="radio" name="size" id="s" value="Small"/>
+        <label for="m">M</label>
+        <input type="radio" name="size" id="m" value="Mediuem"/>
+        <label for="l">L</label>
+        <input type="radio" name="size" id="l" value="Large"/>
+      </p>
+      <button>Submit Form</button>
+    </form>
   </body>
 </html>
