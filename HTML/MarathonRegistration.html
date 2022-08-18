@@ -11,9 +11,9 @@
     <form action="/MarathonForm">
       <div>
         <label for="firstname">First Name</label>
-        <input type="text" name="firstname" id="firstname" />
+        <input type="text" name="firstname" id="firstname" required/>
         <label for="lastname">Last Name</label>
-        <input type="text" name="lastname" id="lastname" />
+        <input type="text" name="lastname" id="lastname" required/>
       </div>
       <div>
         <p>Select a Race:</p>
@@ -25,9 +25,27 @@
         <input type="radio" name="type" id="Half" value="Half Marathon" />
         <label for="Half">Half Marathon</label>
       </div>
+
       <div>
         <input type="radio" name="type" id="Full" value="Full Marathon" />
         <label for="Full">Full Marathon</label>
+      </div>
+
+      <div>
+        <label for="Email:">Email</label>
+        <input type="email" name="email" id="email" required/>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required/>
+      </div>
+
+      <div>
+        <label for="age">Select Age group</label>
+        <select name="age" id="age">
+          <option value="child">--under 18--</option>
+          <option value="young">19-29</option>
+          <option value="adult">30-39</option>
+          <option value="middle age">40-49</option>
+          <option value="senior">50+</option>
       </div>
       <button>Register</button>
     </form>
