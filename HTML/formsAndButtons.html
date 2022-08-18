@@ -34,10 +34,6 @@
         <label for="color">Enter a color:</label>
         <input id="color" type="color" name="color" />
       </p>
-      <p>
-        <label for="number">Enter a number:</label>
-        <input type="number" id="number" name="num" />
-      </p>
       <button>Submit</button>
     </form>
     <hr />
@@ -65,11 +61,11 @@
       <label for="agree">I agree to everything</label>
       <p>
         <label for="s">S</label>
-        <input type="radio" name="size" id="s" value="Small"/>
+        <input type="radio" name="size" id="s" value="Small" />
         <label for="m">M</label>
-        <input type="radio" name="size" id="m" value="Mediuem"/>
+        <input type="radio" name="size" id="m" value="Mediuem" />
         <label for="l">L</label>
-        <input type="radio" name="size" id="l" value="Large"/>
+        <input type="radio" name="size" id="l" value="Large" />
       </p>
       <h2>Select and Option</h2>
       <p>
@@ -77,10 +73,19 @@
         <select name="meal" id="meal">
           <option value="">--Please choose and option--</option>
           <option value="fish">Fish</option>
-          <option value="veg">Vegatarian</option> 
+          <option value="veg">Vegatarian</option>
           <option value="chicken">Chicken</option>
         </select>
       </p>
+      <p>
+      <h2>Range and Text</h2>
+      <!-- "step" brings the bar up the specified amount each time -->
+      <!-- "value" starts the bar at the specific value -->
+      <label for="cheese">Amount of Cheese:</label>
+      <input type="range" id="cheese" min="1" max="100" name="cheese_Level">
+      <label for="number">Enter a number:</label>
+        <input type="number" id="number" name="num" min="1" max="1000"/>
+    </p>
       <button>Submit Form</button>
     </form>
   </body>
