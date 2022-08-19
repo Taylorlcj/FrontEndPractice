@@ -1,0 +1,2 @@
+Im waiting to figure out how to use my css files out of a different folder 
+but for now all of my .css files are inside of the html folder
