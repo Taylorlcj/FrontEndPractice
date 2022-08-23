@@ -2,6 +2,9 @@ h1{
     text-align: center;
     font-weight: normal;
     text-decoration: blue underline wavy;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 h2 {
     color: rgb(99, 195, 164);
@@ -12,6 +15,7 @@ button  {
     color: blueviolet;
     background-color: cyan;
     letter-spacing: 20px;
+    text-transform: uppercase;
 }
 p{
     color: fuchsia;
