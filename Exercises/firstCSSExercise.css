@@ -1,14 +1,14 @@
 h1 {
-    color: green;
-    }
-h2  {
-    color: magenta;
+  color: green;
 }
-button{
-    color: red;
-    background-color: pink;
+h2 {
+  color: magenta;
 }
-p{
-    color: white;
-    background-color: black;
+button {
+  color: red;
+  background-color: pink;
+}
+p {
+  color: white;
+  background-color: black;
 }

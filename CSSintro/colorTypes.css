@@ -1,5 +1,5 @@
-h1{
-    color: aqua;                /* Color */
-    color: rgb(15, 230, 230);   /* RGB */
-    color: #00ffea;             /* Hexadecimal */
+h1 {
+  color: aqua; /* Color */
+  color: rgb(15, 230, 230); /* RGB */
+  color: #00ffea; /* Hexadecimal */
 }
