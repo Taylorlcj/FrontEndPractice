@@ -1,4 +1,5 @@
 //none of this makes any sense, this is purely asthetic. DO NOT RUN THIS =!!!
+
 function createChunk(videoId, start, end){
     chunkCounter++;
     console.log("created chunk: ", chunkCounter);
