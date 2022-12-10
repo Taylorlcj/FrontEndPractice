@@ -1,3 +1,9 @@
+/* 
+*{  Universal selector(Uncommon)
+  color: aqua;
+} 
+*/
+
 h1,
 h2 {
   text-align: center;
@@ -19,5 +25,5 @@ p {
 }
 /* makes everything that description */
 * {
-  background-color: red;
+  background-color: rgb(238, 0, 255);
 }
