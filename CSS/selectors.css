@@ -1,9 +1,20 @@
-/* 
-*{  Universal selector(Uncommon)
+/* Universal selector(Uncommon)
+*{  
   color: aqua;
 }  
 */
 
+/* Class selector ("tag" should be the name of the class)
+.tag {                      
+  color: violet;
+} 
+*/
+
+/* Descendant Selector("a" shows anchor tags)
+li a { 
+  color: aqua;
+} 
+*/
 
 body {
   background-color: aliceblue;
@@ -19,7 +30,8 @@ h2 {
   color: darkslateblue;
 }
 
-#signup {
+/* ID Selector ("signup" should be the name of the ID*/
+#signup { 
   background-color: black;
   color: red;
 }
