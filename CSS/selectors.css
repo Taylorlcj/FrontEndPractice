@@ -1,37 +1,52 @@
-/* Universal selector(Uncommon)
-*{  
-  color: aqua;
-}  
-*/
+/* Review Selectors */
 
-/* Class selector ("tag" should be the name of the class)
-.tag {                      
-  color: violet;
-} 
-*/
-
-/* Descendant Selector("a" shows anchor tags)
-li a { 
-  color: aqua;
-} 
-*/
-
-body {
-  background-color: aliceblue;
+/* Universal selector(Uncommon)*/
+* {
+	color: aqua;
 }
 
-button {
-  font-size: 30px;
-  background-color: aquamarine;
+/* Class selector ("tag" should be the name of the class)*/
+.tag {
+	color: violet;
 }
 
-h1,
-h2 {
-  color: darkslateblue;
+/* Descendant Selector("a" shows anchor tags. Applies to every descendant.) */
+li a {
+	color: aqua;
 }
 
 /* ID Selector ("signup" should be the name of the ID*/
-#signup { 
-  background-color: black;
-  color: red;
+#signup {
+	background-color: black;
+	color: red;
+}
+
+/* Adjacent Selector ()*/
+input + button {
+	color: green;
+}
+
+/* Direct-Descentdant Selector (Only applies to the direct descendant)*/
+div > li {
+	color: white;
+}
+
+/*Attribute Selector ()*/
+input[type="password"] {
+	color: greenyellow;
+}
+
+/* Pseudo class stuff(":hover")*/ /*THERE ARE MANY SEUDO CLASSES*/
+button:hover {
+	color: red;
+}
+
+/*Used when you hover over a button inside of a post*/
+.post button:hover {
+	color: royalblue;
+}
+
+/*Pseudo Element(Use 2 "::" for pseudo elements*/
+h2::first-letter {
+	font-size: 50px;
 }
