@@ -1,12 +1,5 @@
-/*
-basic primitive types:
-Number
-Boolean
-String
-null
-undefined
-NaN             //not a number but is considered a number by javascript
-*/
+
+//NaN             //not a number but is considered a number by javascript
 
 // "**"" means raising it to the power (eg. 2**3 = 8)
 
