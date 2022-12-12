@@ -70,6 +70,9 @@ print("“You bought " + qty + " " + product + "s. Total is: " + price * qty); /
 //new way!!! (You have to use backticks, not quotes)
 print(`you bought ${qty} {product}. Total is: ${price * qty}`); //prints “You bought 5 Artichoke. Total is: 11.25"
 
-//Null
+//null (Intentional lack of value)
+let loggedInUser = null;
 
-//Undefined
+//Undefined (variables that do not have a defined value)
+
+//Math object! (Capital M)
