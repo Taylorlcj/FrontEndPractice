@@ -50,3 +50,8 @@ button:hover {
 h2::first-letter {
 	font-size: 50px;
 }
+
+/*!important (Shows the browser that this is the most important task)*/ /*UNCOMMON*/
+h1{
+  background-color: cadetblue !important;  
+}
