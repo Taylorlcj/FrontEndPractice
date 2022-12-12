@@ -6,7 +6,14 @@ div {
 }
 
 h1{
-    background-color: palevioletred;
+    background-color: rgba(112, 216, 122, 0.364);
+    display: inline; /*makes this category stay in one line*/
+
+}
+
+span {
+    display: block;
+    font-weight: bold;
 }
 
 #one { /* id "one*/
