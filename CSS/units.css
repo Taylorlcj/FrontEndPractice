@@ -1,0 +1,17 @@
+section {
+    background-color: aquamarine;
+    width: 800px;
+    height: 800px;
+}
+
+div {
+    background-color: blueviolet;
+    width: 50%; /*50% of the parent element(section)*/
+    height: 50%;
+}
+
+h1{
+    font-size: 40px;
+    border: 5px solid red;
+    line-height: 80px;
+}
