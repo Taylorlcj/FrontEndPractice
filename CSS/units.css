@@ -17,5 +17,9 @@ h1 {
 }
 
 h2{
-    font-size: 2em;
+    font-size: 2em; /*1 em = the font size of the parent*/
+}
+
+h3{
+    font-size: 3rem; /*1 rem is the font size of the root element for the entire document*/
 }
