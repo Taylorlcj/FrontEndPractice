@@ -76,3 +76,9 @@ let loggedInUser = null;
 //Undefined (variables that do not have a defined value)
 
 //Math object! (Capital M)
+Math.PI; //3.14159...
+Math.floor(23.999999); //chops off everything past the decimal (23)
+Math.ceil(34.00001); //rounds it UP (35)
+Math.random(); //gives a random number from 0 to 1
+
+Math.floor(Math.random() * 5) + 1; // gives a random number between 1 and 10 (the plus 1 is essential)
