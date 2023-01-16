@@ -2,3 +2,7 @@
     width: auto;
     opacity: 1;   /* 0-1(0 means completely transparent, 1 means not at all transparent) */
 }
+
+#static {
+    position: static; /* */
+}
