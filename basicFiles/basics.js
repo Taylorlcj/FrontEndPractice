@@ -75,3 +75,13 @@ Math.ceil(34.00001); //rounds it UP (35)
 Math.random(); //gives a random number from 0 to 1
 
 Math.floor(Math.random() * 5) + 1; // gives a random number between 1 and 10 (the plus 1 is essential)
+
+// Comparisons!
+// greater than:  >
+// less than:     <  
+// greater than or equal to:    >= 
+// less than or equal to:       <=
+// equality:                    ==
+// not equal:                   !=
+// strict equality(EXACT)       ===
+// strict non-equality          !==
