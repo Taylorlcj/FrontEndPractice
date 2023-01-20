@@ -52,6 +52,6 @@ h2::first-letter {
 }
 
 /*!important (Shows the browser that this is the most important task)*/ /*UNCOMMON*/
-h1{
-  background-color: cadetblue !important;  
+h1 {
+	background-color: cadetblue !important;
 }
