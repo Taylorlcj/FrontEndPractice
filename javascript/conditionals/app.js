@@ -31,3 +31,21 @@ if (dayOfWeek === "monday") {
 } else {
     console.log("Meh")
 }
+
+//NESTING CONDITIONALS
+const password = prompt("please enter a new password")
+
+// Password must be 6+ characters 
+if (password.length >= 6) {
+    console.log("long enough password")
+} else {
+    console.log("Password too short! Must be 6+ characters")
+}
+
+//Password cannot include space
+
+if(password.indexOf(" ") === -1) {
+    console.log("You have no spaces, good job")
+}else {
+    console.log("Passwords cannot have spaces")
+}
