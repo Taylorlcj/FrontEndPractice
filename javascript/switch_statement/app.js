@@ -15,4 +15,9 @@ switch (day) {
 	case 5:
 		console.log("5");
 		break;
+	case 6:
+	case 7:
+		console.log("double trouble");
+	default:
+		console.log("MOO");
 }
