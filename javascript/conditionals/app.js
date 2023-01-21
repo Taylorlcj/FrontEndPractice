@@ -49,3 +49,13 @@ if (password.indexOf(" ") === -1) {
 } else {
 	console.log("Passwords cannot have spaces");
 }
+
+//Truthy Falsey
+
+// const userInput = prompt("Enter Something");
+
+// if (userInput) {
+// 	console.log("TRUTHY");
+// } else {
+// 	console.log("FALSEY");
+// }
