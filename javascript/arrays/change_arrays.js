@@ -13,3 +13,4 @@ colors[4];
 colors[4] = "blue";
 
 console.log(colors);
+
