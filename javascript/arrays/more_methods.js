@@ -31,4 +31,5 @@ console.log(warmColors);
 
 let lastThree = colors.slice(-3); //stores the last 3
 console.log(lastThree);
-
+colors.splice(5, 1); //deletes indigo(starts at index 5 and deletes 1 thing)
+console.log(colors);

@@ -19,7 +19,7 @@ if ((age >= 0 && age < 5) || age >= 65) {
 }
 
 //NOT
-const firstname = prompt("ENter your first name")
+const firstname = prompt("Enter your first name")
 if(!firstname){
 	console.log("You didnt write a first name")
 }
