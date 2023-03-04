@@ -42,3 +42,7 @@ console.log(colors);
 
 colors.splice(4, 0, "yellow-green", "forest-green"); //starts at index 4, deletes 0 items, adds two items
 console.log(colors);
+
+let scores = [1, 70, 100, 2500, 9, -12, 0, 34];
+scores.sort();
+console.log(scores);
