@@ -12,3 +12,14 @@ let guess = prompt("enter the secret code...");
 while (guess !== secret_code) {
 	guess = prompt("enter the secret code...");
 }
+
+// "break" stops the execution of the loop and code resumes afterward
+
+let input = prompt("Hey, say something!");
+while (true) {
+	input = prompt(input);
+	if (input.tolLowerCase() === "stop copying me") {
+		break;
+	}
+}
+console.log("0K YOU WIN!");
